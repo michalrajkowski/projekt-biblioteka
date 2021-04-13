@@ -1,0 +1,31 @@
+drop table Opinion;
+drop table Hire;
+drop table Reservation;
+drop table Message;
+drop table _User;
+drop table BookCopy;
+drop table PublisherBook;
+drop table Book_BookType;
+drop table Book_Author;
+drop table Book;
+drop table State;
+drop table Author;
+drop table BookType;
+drop table Publisher;
+drop table UserAuthentication;
+drop table Contact;
+drop table Role;
+drop table Address;
+
+drop view dostepne_ksiazki;
+drop view nieoddane_książki;
+drop view rezerwacje;
+drop view wypozyczenia_klienta;
+
+DROP INDEX _User_index1 on _User;
+DROP INDEX Book_index1 on Book;
+DROP INDEX Hire_index1 on Hire;
+DROP INDEX Hire_index2 on Hire;
+DROP INDEX Hire_index3 on Hire;
+DROP INDEX Reservation_index1 on Reservation;
+DROP INDEX Reservation_index2 on Reservation;
